@@ -19,7 +19,7 @@
 
 .header__links-list-item {
     font-size: 18px;
-    line-height: 21px;
+    line-height: 115%;
     letter-spacing: 0.01em;
 }
 
@@ -108,7 +108,7 @@
     padding: 0 50px 51px 78px;
     color: rgb(255, 255, 255);
     font-size: 22px;
-    line-height: 28px;
+    line-height: 130%;
     text-transform: uppercase;
     position: relative;
     z-index: 1;
@@ -128,7 +128,87 @@
     padding: 12px 33px 11px 33px;
     color: rgb(255, 255, 255);
     font-size: 22px;
-    line-height: 26px;
+    line-height: 120%;
     text-transform: uppercase;
     letter-spacing: 0.025em;
+}
+
+.lots {
+    padding: 179px 24px 146px 24px;
+}
+
+.lots__heading {
+    font-size: 40px;
+    line-height: 120%;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 40px;
+    padding-bottom: 27px;
+}
+
+.lots__card-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    min-height: 100%;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-bottom: 30px;
+}
+
+.lots__card-list-item {
+    flex-grow: 1;
+}
+
+.card-link {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.card {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 334px;
+    height: 563px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 40px 48px 40px;
+}
+
+.card_type_film {
+    background-image: url(/images/card-lot-01.jpg);
+}
+
+.card_type_book {
+    background-image: url(/images/card-lot-02.jpg);
+}
+
+.card_type_picture {
+    background-image: url(/images/card-lot-03.jpg);
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 120%;
+    position: relative;
+    z-index: 1;
+}
+
+.card__text {
+    font-size: 20px;
+    line-height: 120%;
+    position: relative;
+    z-index: 1;
+}
+
+.lots__look-more-link {
+    font-size: 20px;
+    line-height: 115%;
+    padding-left: 40px;
 }
