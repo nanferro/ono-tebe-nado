@@ -74,18 +74,19 @@
 }
 
 .cover__title {
-    padding: 162px 50px 125px 50px;
+    padding: 165px 50px 128px 50px;
     position: relative;
     z-index: 1;
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 10px;
     justify-content: center;
     color: rgb(255, 255, 255);
     font-size: 100px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 30px;
+    line-height: 115%;
 }
 
 .aligned-text_center {
@@ -130,11 +131,10 @@
     font-size: 22px;
     line-height: 120%;
     text-transform: uppercase;
-    letter-spacing: 0.025em;
 }
 
 .lots {
-    padding: 179px 24px 182px 24px;
+    padding: 177px 24px 182px 24px;
 }
 
 .lots__heading {
@@ -143,7 +143,7 @@
     font-weight: bold;
     text-transform: uppercase;
     padding-left: 40px;
-    padding-bottom: 27px;
+    padding-bottom: 26px;
 }
 
 .lots__card-list {
@@ -215,7 +215,7 @@
 
 .about {
     display: grid;
-    grid-template-columns: 380px auto;
+    grid-template-columns: 383px auto;
     grid-template-rows: min-content min-content;
     grid-template-areas: 
     "about-logo about-title"
@@ -246,7 +246,7 @@
     line-height: 120%;
     text-transform: uppercase;
     align-self: center;
-    padding-top: 5px;
+    padding-top: 12px;
 }
 
 .about__text {
@@ -254,13 +254,14 @@
     grid-area: about-text;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 18px;
 }
 
 .about__text-item {
     font-size: 20px;
     line-height: 120%;
-    padding-top: 7px;
+    padding-top: 8px;
+    letter-spacing: 0.01em;
 }
 
 .footer {
@@ -271,7 +272,7 @@
 
 .footer__menu {
     text-align: center;
-    padding: 0 5px 0 30px;
+    padding-left: 30px;
 }
 
 .footer__menu-list {
