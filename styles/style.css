@@ -65,6 +65,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-bottom: 180px;
 }
 
 .overlay {
@@ -136,7 +137,7 @@
 }
 
 .lots {
-    padding: 180px 24px 182px 24px;
+    padding: 0 24px 182px 24px;
 }
 
 .lots__heading {
